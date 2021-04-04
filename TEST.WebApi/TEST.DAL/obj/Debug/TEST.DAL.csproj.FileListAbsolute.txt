@@ -1,0 +1,14 @@
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.dll
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.pdb
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\TEST.Model.dll
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\TEST.Model.pdb
+D:\TESTING\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csprojAssemblyReference.cache
+D:\TESTING\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csproj.CoreCompileInputs.cache
+D:\TESTING\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csproj.CopyComplete
+D:\TESTING\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.dll
+D:\TESTING\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.pdb
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.dll.config
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.dll
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.xml
+D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.xml

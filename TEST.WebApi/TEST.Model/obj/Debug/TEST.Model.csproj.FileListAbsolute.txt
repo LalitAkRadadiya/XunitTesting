@@ -1,0 +1,6 @@
+D:\TESTING\TEST.WebApi\TEST.Model\bin\Debug\TEST.Model.dll
+D:\TESTING\TEST.WebApi\TEST.Model\bin\Debug\TEST.Model.pdb
+D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csprojAssemblyReference.cache
+D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csproj.CoreCompileInputs.cache
+D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.dll
+D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.pdb
