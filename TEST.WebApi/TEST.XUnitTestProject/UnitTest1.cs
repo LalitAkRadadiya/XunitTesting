@@ -1,6 +1,8 @@
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Net;
+using System.Web.Http.Results;
 using TEST.BAL;
 using TEST.BAL.Interface;
 using TEST.Model;
@@ -80,8 +82,6 @@ namespace TEST.XUnitTestProject
             //Arrange
             var passenger = new Passenger();
             passenger.Id = 1;
-            passenger.FirstName = "Prince";
-            passenger.LastName = "Makwana";
             passenger.ContactNo = 96246;
             var res = mockData.Setup(x => x.GetPassenger(passenger.Id)).Returns(passenger);
 
@@ -103,7 +103,7 @@ namespace TEST.XUnitTestProject
             var result = _passengerController.Get(passenger.Id);
 
             //Assert
-            Assert.Null(result);
+            Assert.IsType<BadRequestErrorMessageResult>(result);
         }
 
         //Update any existing Passenger
@@ -116,13 +116,17 @@ namespace TEST.XUnitTestProject
             passenger.FirstName = "iPrince";
             passenger.LastName = "Makwana";
             passenger.ContactNo = 9426;
-            var res = mockData.Setup(x => x.UpdatePassenger(passenger)).Returns("Passenger Updated Successfully!");
+            var res = mockData.Setup(x => x.UpdatePassenger(passenger)).Returns("Successfully updated");
 
             //Act
             var result = _passengerController.Put(passenger);
 
             //Assert
-            Assert.Equal("Passenger Updated Successfully!", result);
+            //Assert.Equal("Successfully updated", result);
+            //Assert.IsType<OkResult>(result);
+
+            NegotiatedContentResult<Passenger> negResult = Assert.IsType<NegotiatedContentResult<Passenger>>(result);
+            Assert.Equal(HttpStatusCode.Accepted, negResult.StatusCode);
         }
 
         [Fact]
@@ -134,9 +138,13 @@ namespace TEST.XUnitTestProject
 
             //Act
             var result = _passengerController.Put(passenger);
-
+           
+            NegotiatedContentResult<Passenger> negResult = Assert.IsType<NegotiatedContentResult<Passenger>>(result);
+            Assert.Equal(HttpStatusCode.Accepted, negResult.StatusCode);
+            
             //Assert
-            Assert.NotEqual("Successfully updated", result);
+            //Assert.IsType<OkResult>(result);
+            //Assert.NotEqual("Successfully updated", result);
         }
 
         //Delete any particular existing Passenger.

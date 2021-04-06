@@ -12,3 +12,17 @@ D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.dll
 D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.xml
 D:\TESTING\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.dll.config
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\TEST.DAL.pdb
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\TEST.Model.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\TEST.Model.pdb
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.xml
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csprojAssemblyReference.cache
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csproj.CoreCompileInputs.cache
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.csproj.CopyComplete
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.DAL\obj\Debug\TEST.DAL.pdb

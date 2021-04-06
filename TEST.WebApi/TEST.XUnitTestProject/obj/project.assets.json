@@ -6363,19 +6363,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lalit Ak Radadiya\\.nuget\\packages\\": {}
+    "C:\\Users\\lalit.radadiya\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TESTING\\TEST.WebApi\\TEST.XUnitTestProject\\TEST.XUnitTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.XUnitTestProject\\TEST.XUnitTestProject.csproj",
       "projectName": "TEST.XUnitTestProject",
-      "projectPath": "D:\\TESTING\\TEST.WebApi\\TEST.XUnitTestProject\\TEST.XUnitTestProject.csproj",
-      "packagesPath": "C:\\Users\\Lalit Ak Radadiya\\.nuget\\packages\\",
-      "outputPath": "D:\\TESTING\\TEST.WebApi\\TEST.XUnitTestProject\\obj\\",
+      "projectPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.XUnitTestProject\\TEST.XUnitTestProject.csproj",
+      "packagesPath": "C:\\Users\\lalit.radadiya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.XUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lalit Ak Radadiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lalit.radadiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6389,17 +6393,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\TESTING\\TEST.WebApi\\TEST.BAL\\TEST.BAL.csproj": {
-              "projectPath": "D:\\TESTING\\TEST.WebApi\\TEST.BAL\\TEST.BAL.csproj"
+            "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.BAL\\TEST.BAL.csproj": {
+              "projectPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.BAL\\TEST.BAL.csproj"
             },
-            "D:\\TESTING\\TEST.WebApi\\TEST.DAL\\TEST.DAL.csproj": {
-              "projectPath": "D:\\TESTING\\TEST.WebApi\\TEST.DAL\\TEST.DAL.csproj"
+            "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.DAL\\TEST.DAL.csproj": {
+              "projectPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.DAL\\TEST.DAL.csproj"
             },
-            "D:\\TESTING\\TEST.WebApi\\TEST.Model\\TEST.Model.csproj": {
-              "projectPath": "D:\\TESTING\\TEST.WebApi\\TEST.Model\\TEST.Model.csproj"
+            "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.Model\\TEST.Model.csproj": {
+              "projectPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.Model\\TEST.Model.csproj"
             },
-            "D:\\TESTING\\TEST.WebApi\\TEST.WebApi\\TEST.WebApi.csproj": {
-              "projectPath": "D:\\TESTING\\TEST.WebApi\\TEST.WebApi\\TEST.WebApi.csproj"
+            "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.WebApi\\TEST.WebApi.csproj": {
+              "projectPath": "C:\\Users\\lalit.radadiya\\Desktop\\testing\\XunitTesting\\TEST.WebApi\\TEST.WebApi\\TEST.WebApi.csproj"
             }
           }
         }
@@ -6458,7 +6462,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

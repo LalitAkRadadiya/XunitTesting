@@ -4,3 +4,9 @@ D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csprojAssemblyReference.c
 D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csproj.CoreCompileInputs.cache
 D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.dll
 D:\TESTING\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.pdb
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\bin\Debug\TEST.Model.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\bin\Debug\TEST.Model.pdb
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csprojAssemblyReference.cache
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.csproj.CoreCompileInputs.cache
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.dll
+C:\Users\lalit.radadiya\Desktop\testing\XunitTesting\TEST.WebApi\TEST.Model\obj\Debug\TEST.Model.pdb

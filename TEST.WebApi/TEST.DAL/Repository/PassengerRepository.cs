@@ -109,10 +109,10 @@ namespace TEST.DAL
                 }
                 return "model is null";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
-                return "model is null" + ex.Message;
+                return "model is null";
             }
         }
 

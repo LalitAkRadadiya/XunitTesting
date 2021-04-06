@@ -13,8 +13,8 @@ namespace TEST.WebApi.Controllers
     public class PassengerController : ApiController
     {
         private readonly IPassengerManger _passengerManger;
-        
-        
+
+
         public PassengerController(IPassengerManger passengerManger)
         {
             _passengerManger = passengerManger;
@@ -24,39 +24,79 @@ namespace TEST.WebApi.Controllers
         // GET: api/Passenger
         public List<Passenger> Get()
         {
-
-            //PassengerManger passengerManger = new PassengerManger();
-            //passengerManger.GetPassenger();
-            //var passenger = _passengerManger.GetAllPassenger();
             return _passengerManger.GetAllPassenger();
-//;            return new string[] { "value1", "value2" };
         }
 
         // GET: api/Passenger/5
 
-        public Passenger Get(int id)
+        public IHttpActionResult Get(int id)
         {
-            return _passengerManger.GetPassenger(id);
+            if (id != 0)
+            {
+                var pass = _passengerManger.GetPassenger(id);
+                if (pass != null)
+                {
+                    return Ok(pass);
+
+                }
+                else
+                {
+                    return InternalServerError();
+                }
+            }
+            return BadRequest("Invalid passenger id");
+
         }
+
 
         // POST: api/Passenger
         [HttpPost]
-        public string Post([FromBody]Passenger model)
+        public IHttpActionResult Post([FromBody] Passenger model)
         {
-            return _passengerManger.CreatePassenger(model);
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid model");
+            }
+            else
+            {
+                return Ok(_passengerManger.CreatePassenger(model));
+            }
         }
 
         // PUT: api/Passenger/5
         [HttpPut]
-        public string Put([FromBody]Passenger model)
+        public IHttpActionResult Put([FromBody] Passenger model)
         {
-            return _passengerManger.UpdatePassenger(model);
+            //var _passenger = _passengerManger.UpdatePassenger(model);
+            //if (_passenger == null)
+            //    return ResponseMessage(Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid model"));
+            //else
+            //    return Ok(_passenger);
+
+
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest("Invalid model");
+            }
+            else
+            {
+                return Ok(_passengerManger.UpdatePassenger(model));
+            }
         }
 
         // DELETE: api/Passenger/5
-        public string Delete(int id)
+        public IHttpActionResult Delete(int id)
         {
-            return _passengerManger.DeletePassenger(id);
+            if (id != 0)
+            {
+                return BadRequest("Not a valid passenger id");
+            }
+            else
+            {
+                return Ok(_passengerManger.DeletePassenger(id));
+            }
         }
     }
 }
